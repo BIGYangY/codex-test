@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WarehousePro | Contact</title>
+  <meta name="description" content="Contact WarehousePro for a warehouse management demo consultation." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">WarehousePro</a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+    </div>
+    <nav id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="services.html">Services</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Let’s Improve Your Warehouse Operations</h1>
+        <p>Tell us about your current setup and we’ll help design a tailored management approach.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>Get in Touch</h2>
+          <p>
+            Share your goals and challenges, and our team will follow up with a practical roadmap for
+            increasing visibility, throughput, and fulfillment accuracy.
+          </p>
+          <ul class="checklist">
+            <li>Response within one business day</li>
+            <li>Personalized demo walkthrough</li>
+            <li>No-obligation consultation</li>
+          </ul>
+        </div>
+
+        <form class="form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" required />
+          </div>
+
+          <div class="form-group">
+            <label for="volume">Monthly Order Volume</label>
+            <select id="volume" name="volume" required>
+              <option value="">Select one</option>
+              <option value="under-5k">Under 5,000</option>
+              <option value="5k-25k">5,000 - 25,000</option>
+              <option value="25k-100k">25,000 - 100,000</option>
+              <option value="100k-plus">100,000+</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" placeholder="Tell us about your warehouse goals and challenges."></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> WarehousePro Demo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

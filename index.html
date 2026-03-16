@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WarehousePro | Home</title>
+  <meta name="description" content="WarehousePro demo site for warehouse management operations, inventory tracking, and logistics coordination." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">WarehousePro</a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+    </div>
+    <nav id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Smarter Warehouse Management Starts Here</h1>
+        <p>
+          Streamline receiving, storage, picking, packing, and shipping with a modern demo platform
+          built for operational clarity and speed.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="features.html">Explore Features</a>
+          <a class="btn btn-secondary" href="contact.html">Request a Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Why WarehousePro?</h2>
+        <div class="grid three-col">
+          <article class="card">
+            <h3>Real-Time Inventory</h3>
+            <p>Track stock movement in real time across zones, bins, and outbound channels.</p>
+          </article>
+          <article class="card">
+            <h3>Order Accuracy</h3>
+            <p>Reduce pick and pack errors with guided workflows and validation checkpoints.</p>
+          </article>
+          <article class="card">
+            <h3>Data-Driven Insights</h3>
+            <p>Use dashboards and reports to optimize labor, throughput, and cycle times.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container split">
+        <div>
+          <h2>Built for Growing Operations</h2>
+          <p>
+            From single-site warehouses to distributed fulfillment networks, WarehousePro adapts to your
+            processes and scales as demand grows.
+          </p>
+          <ul class="checklist">
+            <li>Multi-location support</li>
+            <li>Role-based access control</li>
+            <li>Barcode & scanner ready</li>
+            <li>Cloud-based reliability</li>
+          </ul>
+        </div>
+        <div class="stat-panel" aria-label="Operational stats">
+          <p><strong>99.9%</strong> Inventory visibility</p>
+          <p><strong>35%</strong> Faster picking workflows</p>
+          <p><strong>24/7</strong> Access to warehouse data</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> WarehousePro Demo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
